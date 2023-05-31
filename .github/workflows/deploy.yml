@@ -19,7 +19,7 @@ jobs:
         if: github.ref == 'refs/heads/test'
         with:
           ref: gh-pages
-          path: built-site/Doc
+          path: built-site
 
       - name: Setup Hugo
         run: |
