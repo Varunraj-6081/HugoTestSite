@@ -40,5 +40,5 @@ jobs:
           git commit -m 'Updated site'
           git push 
         env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: Doc
