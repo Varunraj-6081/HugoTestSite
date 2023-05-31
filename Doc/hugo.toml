@@ -1,4 +1,4 @@
-baseURL = 'https://varunraj-6081.github.io/SubFolderHugoSite/Doc/'
+baseURL = 'https://varunraj-6081.github.io/HugoTestSite/'
 languageCode = 'en-us'
-title = 'My New Hugo Sites11'
+title = 'My New Hugo Sites1'
 theme="PaperMod"
