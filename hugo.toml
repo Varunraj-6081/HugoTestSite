@@ -1,4 +1,4 @@
 baseURL = 'https://varunraj-6081.github.io/theplaybook/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My New Hugo Sites'
 theme="PaperMod"
