@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Sites1</title>
-    <link>https://varunraj-6081.github.io/HugoTestSite/</link>
-    <description>Recent content on My New Hugo Sites1</description>
+    <title>My New Hugo Sites2</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Sites2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2023 12:37:35 +0530</lastBuildDate><atom:link href="https://varunraj-6081.github.io/HugoTestSite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 12:37:35 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://varunraj-6081.github.io/HugoTestSite/docs/test/</link>
+      <link>/docs/test/</link>
       <pubDate>Wed, 31 May 2023 12:37:35 +0530</pubDate>
       
-      <guid>https://varunraj-6081.github.io/HugoTestSite/docs/test/</guid>
+      <guid>/docs/test/</guid>
       <description>This is Test page </description>
     </item>
     
