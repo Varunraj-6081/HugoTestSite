@@ -32,7 +32,7 @@ jobs:
       - name: Deploy
         if: github.ref == 'refs/heads/test'
         run: |
-          cp -R public/* ${GITHUB_WORKSPACE}/built-site/Doc
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/Doc/
           cd ${GITHUB_WORKSPACE}/built-site/Doc
           git add .
           git config user.name 'Varunraj-6081'
