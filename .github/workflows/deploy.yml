@@ -31,6 +31,8 @@ jobs:
 
       - name: Deploy
         if: github.ref == 'refs/heads/test'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
@@ -38,7 +40,5 @@ jobs:
           git config user.name 'Varunraj-6081'
           git config user.email 'varunraj6081@gmail.com'
           git commit -m 'Updated site'
-          git push 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push         
         working-directory: Doc
