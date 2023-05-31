@@ -1,4 +1,4 @@
-baseURL = 'https://varunraj-6081.github.io/theplaybook/'
+baseURL = 'https://varunraj-6081.github.io/TestHugoDeploy/'
 languageCode = 'en-us'
 title = 'My New Hugo Sites1'
 theme="PaperMod"
